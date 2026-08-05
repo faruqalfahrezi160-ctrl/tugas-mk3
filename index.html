@@ -1,11 +1,138 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMK Telkom Purwokerto | Sekolah Vokasi Berstandar Global</title>
+  <meta name="description" content="SMK Telkom Purwokerto adalah sekolah vokasi pelopor pendidikan teknologi & komunikasi di Jawa Tengah. Membentuk generasi unggul, berkarakter, dan berprestasi global.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS (Separated) -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
-</body>
-</html>
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <div class="container navbar-container">
+      <a href="#beranda" class="logo">
+        <div class="logo-icon">T</div>
+        <div class="logo-text">SMK Telkom <span>Purwokerto</span></div>
+      </a>
+      
+      <div class="nav-links">
+        <a href="#beranda" class="nav-link active">Beranda</a>
+        <a href="#tentang" class="nav-link">Tentang Kami</a>
+        <a href="#program" class="nav-link">Program Keahlian</a>
+        <a href="#prestasi" class="nav-link">Prestasi</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </div>
+      
+      <button onclick="openPPDBModal()" class="btn btn-primary">Daftar PPDB</button>
+      
+      <button class="mobile-toggle" aria-label="Toggle navigation">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </nav>
+
+      <div class="mobile-header">
+      <a href="#beranda" class="logo">
+        <div class="logo-icon">T</div>
+        <div class="logo-text">SMK Telkom</div>
+      </a>
+      <button class="close-btn">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="#beranda" class="mobile-nav-link">Beranda</a>
+      <a href="#tentang" class="mobile-nav-link">Tentang Kami</a>
+      <a href="#program" class="mobile-nav-link">Program Keahlian</a>
+      <a href="#prestasi" class="mobile-nav-link">Prestasi Siswa</a>
+      <a href="#kontak" class="mobile-nav-link">Kontak Kami</a>
+    </div>
+    <button onclick="openPPDBModal()" class="btn btn-primary" style="width: 100%; margin-top: auto;">Daftar PPDB Sekarang</button>
+  </div>
+  <!-- HERO SECTION -->
+  <section id="beranda" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Membentuk Generasi Unggul, Berkarakter , dan Berprestasi Global
+        </h1>
+        <p class="hero-description">
+          SMK Telkom Purwokerto berkomitmen membentuk lulusan yang siap kerja, berkarakter, dan berdaya saing global melalui pendidikan vokasi berbasis teknologi dan industri. Mari bergabung menjadi bagian dari generasi sukses di masa depan.
+        </p>
+        <div class="hero-actions">
+          <button onclick="openPPDBModal()" class="btn btn-primary">Daftar Sekarang</button>
+          <a href="#tentang" class="btn btn-outline">Petunjuk Pendaftaran</a>
+        </div>
+      </div>
+      
+      <div class="hero-image-wrapper">
+        <div class="hero-image-card">
+          <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80" alt="Siswa SMK Telkom Purwokerto Praktek Laboratorium Teknologi">
+        </div>
+        <div class="hero-badge-floating">
+          <div class="hero-badge-icon">🏆</div>
+          <div class="hero-badge-info">
+            <strong>Akreditasi A Super</strong>
+            <span>Sekolah Vokasi Berprestasi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR SECTION -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-number" data-target="1200" data-suffix="+">0</div>
+        <div class="stat-label">Siswa Aktif</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-target="98" data-suffix="%">0</div>
+        <div class="stat-label">Tingkat Penyerapan Kerja</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-target="150" data-suffix="+">0</div>
+        <div class="stat-label">Penghargaan</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-target="50" data-suffix="+">0</div>
+        <div class="stat-label">Mitra Industri</div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="tentang" class="about-section section-padding">
+    <div class="container about-grid">
+      <div class="about-content">
+        <div class="badge-pill">Tentang Kami</div>
+        <h2 class="section-title">Sekolah Vokasi Berstandar Global</h2>
+        <p class="section-subtitle" style="margin-bottom: 24px;">
+          Dengan pengalaman lebih dari 20 tahun, SMK Telkom Purwokerto terbukti menjadi pelopor pendidikan vokasi di bidang teknologi dan komunikasi di Jawa Tengah. Kami mencetak lulusan dengan keahlian praktis dan karakter yang kuat, siap menjawab tantangan di era Industri 4.0.
+        </p>
+        
+        <div class="about-features">
+          <div class="feature-item">
+            <div class="feature-icon-check">✓</div>
+            <div class="feature-text">
+              <h4>Kurikulum Berbasis Industri</h4>
+              <p>Dirancang bersama mitra industri terkemuka untuk memastikan kesiapan kerja.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon-check">✓</div>
+            <div class="feature-text">
+              <h4>Fasilitas Modern & Lengkap</h4>
+              <p>Laboratorium komputer dan bengkel praktek berstandar tinggi dan terkini.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
