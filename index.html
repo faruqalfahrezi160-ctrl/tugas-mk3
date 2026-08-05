@@ -164,3 +164,147 @@
           <p>Fokus pada keamanan jaringan, cloud computing, dan administrasi server modern.</p>
           <a onclick="openProgramModal('tkj')" class="program-link">Pelajari Lebih Lanjut &rarr;</a>
         </div>
+
+        <!-- Card 3: DKV -->
+        <div class="program-card">
+          <div class="program-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a7 7 0 1 0 10 10"></path></svg>
+          </div>
+          <h3>Desain Komunikasi Visual</h3>
+          <p>Mengembangkan kreativitas dalam bidang UI/UX, 3D animation, dan digital media.</p>
+          <a onclick="openProgramModal('dkv')" class="program-link">Pelajari Lebih Lanjut &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PRESTASI SISWA SECTION -->
+  <section id="prestasi" class="achievements-section section-padding">
+    <div class="container">
+      <div class="achievements-header-row">
+        <div>
+          <div class="badge-pill">Prestasi Siswa</div>
+          <h2 class="section-title">Prestasi Siswa</h2>
+          <p class="section-subtitle">Bukti nyata komitmen kami dalam mencetak siswa-siswi berprestasi di tingkat nasional dan internasional.</p>
+        </div>
+        <a onclick="openPPDBModal()" class="program-link" style="font-size: 1rem; flex-shrink: 0;">Lihat Semua Prestasi &rarr;</a>
+      </div>
+      <div class="achievements-grid">
+
+         <!-- Achievement Card 1 -->
+        <div class="achievement-card">
+          <div class="achievement-img-wrapper">
+            <span class="achievement-tag">Tingkat Nasional</span>
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80" alt="Lomba Kompetensi Siswa (LKS) IT Network Systems">
+          </div>
+          <div class="achievement-body">
+            <h4>Lomba Kompetensi Siswa (LKS) IT Network Systems</h4>
+            <div class="achievement-meta">Juara 1 Tingkat Nasional 2023</div>
+          </div>
+        </div>
+        <!-- Achievement Card 2 -->
+        <div class="achievement-card">
+          <div class="achievement-img-wrapper">
+            <span class="achievement-tag">Tingkat Internasional</span>
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="ASEAN Student Innovation Challenge">
+          </div>
+          <div class="achievement-body">
+            <h4>ASEAN Student Innovation Challenge</h4>
+            <div class="achievement-meta">Tingkat Asia Tenggara 2023</div>
+          </div>
+        </div>
+        <!-- Achievement Card 3 -->
+        <div class="achievement-card">
+          <div class="achievement-img-wrapper">
+            <span class="achievement-tag">Tingkat Nasional</span>
+            <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=800&q=80" alt="National Creative Media Competition">
+          </div>
+          <div class="achievement-body">
+            <h4>National Creative Media Competition</h4>
+            <div class="achievement-meta">Universitas Telkom 2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+                  <div class="contact-icon">📞</div>
+                <div class="contact-details">
+                  <strong>Telepon</strong>
+                  <span>(0281) 637724</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">✉️</div>
+                <div class="contact-details">
+                  <strong>Email</strong>
+                  <span>info@smktelkom-pwt.sch.id</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Right Panel (Form) -->
+        <div class="contact-form-panel">
+          <form id="contactForm">
+            <div class="form-group">
+              <label class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-input" required placeholder="Tulis nama anda">
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-input" required placeholder="Alamat email">
+              </div>
+              <div class="form-group">
+                <label class="form-label">No. WhatsApp</label>
+                <input type="tel" class="form-input" required placeholder="08xxxxxxxxxx">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Pesan</label>
+              <textarea class="form-textarea" required placeholder="Tuliskan pesan atau pertanyaan anda..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+          <div class="footer-col">
+          <h5>Admission</h5>
+          <ul>
+            <li><a onclick="openPPDBModal()">Petunjuk Pendaftaran</a></li>
+            <li><a onclick="openPPDBModal()">Alur Seleksi</a></li>
+            <li><a onclick="openPPDBModal()">Biaya Studi</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Kontak</h5>
+          <ul>
+            <li><a href="#kontak">Pusat Kampus</a></li>
+            <li><a href="#kontak">Lokasi Kampus</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2024 SMK Telkom Purwokerto. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <!-- REUSABLE MODAL DIALOG -->
+  <div id="infoModal" class="modal-backdrop">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h3 id="modalTitle" style="font-size: 1.4rem; font-weight: 800; color: #1e293b; margin-bottom: 16px;">Judul Modal</h3>
+      <div id="modalBody">
+        <!-- Content dynamically injected via JS -->
+      </div>
+    </div>
+  </div>
+  <!-- Custom JS (Separated) -->
+  <script src="js/script.js"></script>
+</body>
+</html>
